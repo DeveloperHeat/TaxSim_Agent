@@ -109,7 +109,7 @@ Adding new simulation parameters or calculation endpoints follows a structured p
 If you receive an error indicating that port `5000` or `3000` is already in use:
 
 - Ensure no background instances of previous .NET applications or node servers are lingering.
-- Kill active processes on those ports or update your configuration properties to bind to an available port.
+- Terminate active processes on those ports or update your configuration properties to bind to an available port.
 
 ## Future Improvements
 
