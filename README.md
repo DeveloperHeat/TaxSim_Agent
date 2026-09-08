@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/b467f0b3-ea3d-405b-b394-eef94dd7c7af
+
 # TaxSim-Agent
 
 A hybrid full-stack simulation platform featuring a deterministic .NET backend for core calculations and a stochastic React frontend interface. Designed with a clean monorepo architecture, the application isolates backend business logic, database configurations, and client-side simulation modules to showcase robust system design and modern web development practices.
