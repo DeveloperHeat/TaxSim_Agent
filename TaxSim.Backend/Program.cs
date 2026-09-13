@@ -22,7 +22,7 @@ builder.Services.AddControllers()
     {
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
     });
-builder.Services.AddSwaggerGen(); // Add this line
+builder.Services.AddSwaggerGen(); 
 
 builder.Services.AddDbContext<TaxSimDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
