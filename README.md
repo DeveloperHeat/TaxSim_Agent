@@ -71,7 +71,7 @@ You can then:
 | ---------------- | -------------------------------------------------------------- |
 | Backend Language | C# (.NET)                                                      |
 | Frontend Library | React, JavaScript                                |
-| Database         | SQLite                                                         |
+| Database         | SQLite (via Entity Framework Core)                                                       |
 | LLM Used         | Ollama                                 |
 | Design Pattern   | Deterministic Calculation Engine + Stochastic Client Interface |
 
