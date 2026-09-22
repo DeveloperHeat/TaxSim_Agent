@@ -10,7 +10,7 @@ A multi-agent simulation platform designed to stress-test tax policies. The syst
 
 ## Features
 
--- **Multi-Agent Simulation**: Models the behavior of distinct automated agents navigating a set tax policy simultaneously, attempting to exploit legislative loopholes while strictly adhering to deterministic legal boundaries.
+- **Multi-Agent Simulation**: Models the behavior of distinct automated agents navigating a set tax policy simultaneously, attempting to exploit legislative loopholes while strictly adhering to deterministic legal boundaries.
 - **Deterministic .NET Backend**: High-performance core calculation engine ensuring reliable, reproducible tax computation logic.
 - **Stochastic React Frontend**: Dynamic, probabilistic interface modeling variable user scenarios and simulation parameters.
 - **Monorepo Architecture**: Clean isolation of backend business services, local database state, and frontend components within a unified workspace.
