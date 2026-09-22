@@ -23,9 +23,9 @@ A multi-agent simulation platform designed to stress-test tax policies. The syst
 This project uses a hybrid architecture, combining a C# .NET API backend with a React Single Page Application (SPA) frontend.
 
 ### Prerequisites
-
 - .NET SDK (**6.0** or later)
-- Node.js and npm installed
+- Node.js and npm installed 
+- Ollama installed locally (with your preferred model)
 
 ---
 
@@ -80,16 +80,16 @@ You can then:
 The system splits execution logic between a deterministic calculation pipeline and a stochastic client model:
 
 ```text
-React Frontend (Stochastic UI / Parameters)
+React Frontend (Visualization & Parameter Control)
                   │
                   ▼ (HTTP / Localhost API)
-      .NET Backend (Deterministic Engine)
-                  │
-                  ▼
-       SQLite Database (Local State)
+      .NET Backend (Simulation & Orchestration Engine)
+            ├───► Ollama / Local LLM (Evaluates agent strategies & loopholes)
+            └───► SQLite Database (Stores state & simulation outputs)
                   │
                   ▼
            Simulation Output
+
 ```
 
 State and calculation rules are strictly managed on the backend layer, while user-driven probabilistic variants are handled dynamically on the client side.
