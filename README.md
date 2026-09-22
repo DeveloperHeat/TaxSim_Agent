@@ -4,17 +4,17 @@ https://github.com/user-attachments/assets/6871ddfd-6efc-44e7-807e-13e0e1ab3220
 
 # TaxSim-Agent
 
-A hybrid full-stack simulation platform featuring a deterministic .NET backend for core calculations and a stochastic React frontend interface. Designed with a clean monorepo architecture, the application isolates backend business logic, database configurations, and client-side simulation modules to showcase robust system design and modern web development practices.
+A multi-agent simulation platform designed to stress-test tax policies. The system deploys automated economic agents that attempt to maximize financial outcomes within bounds of the law, exposing structural loopholes through a hybrid .NET and React architecture.
 
 ---
 
 ## Features
 
+-- **Multi-Agent Simulation**: Models the behavior of distinct automated agents navigating a set tax policy simultaneously, attempting to exploit legislative loopholes while strictly adhering to deterministic legal boundaries.
 - **Deterministic .NET Backend**: High-performance core calculation engine ensuring reliable, reproducible tax computation logic.
 - **Stochastic React Frontend**: Dynamic, probabilistic interface modeling variable user scenarios and simulation parameters.
 - **Monorepo Architecture**: Clean isolation of backend business services, local database state, and frontend components within a unified workspace.
 - **Local Data Persistence**: Integrated SQLite database management safely filtered out of version control.
-- **Modular Design**: Loosely coupled API layer facilitating seamless client-server communication over local development endpoints.
 
 ---
 
@@ -70,9 +70,9 @@ You can then:
 | **Component**    | **Technology**                                                 |
 | ---------------- | -------------------------------------------------------------- |
 | Backend Language | C# (.NET)                                                      |
-| Frontend Library | React, JavaScript/TypeScript                                   |
+| Frontend Library | React, JavaScript                                |
 | Database         | SQLite                                                         |
-| Architecture     | Hybrid Full-Stack Monorepo                                     |
+| LLM Used         | Ollama                                 |
 | Design Pattern   | Deterministic Calculation Engine + Stochastic Client Interface |
 
 ## Project Architecture
